@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
         mIndicator2.setIndicatorWithImage(indicators);
         mIndicator2.setViewPager(mViewPager2);
 
-
     }
 
 

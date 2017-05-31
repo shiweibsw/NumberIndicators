@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberIndicator">
+        <attr name="ni_width" format="dimension"/>
+        <attr name="ni_height" format="dimension"/>
+        <attr name="ni_textsize" format="integer"/>
+        <attr name="ni_textcolor" format="reference"/>
+    </declare-styleable>
+
+</resources>

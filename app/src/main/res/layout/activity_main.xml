@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.knigit.davion.numberindicator.sample.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.knigit.davion.numberindicator.NumberIndicator
+            android:id="@+id/indicator1"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            app:ni_height="40dip"
+            app:ni_textcolor="@color/colorAccent"
+            app:ni_textsize="36"
+            app:ni_width="40dip"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.knigit.davion.numberindicator.NumberIndicator
+            android:id="@+id/indicator2"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            app:ni_height="40dip"
+            app:ni_textcolor="@color/colorAccent"
+            app:ni_textsize="36"
+            app:ni_width="40dip"/>
+    </RelativeLayout>
+</LinearLayout>
